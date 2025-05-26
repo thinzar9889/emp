@@ -278,8 +278,7 @@ public class EmpDashboardAdminView extends JFrame {
                     deleteBtn.setBorderPainted(false);
                     deleteBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
                     deleteBtn.setToolTipText("Delete");
-
-
+                    
                     JPanel empPanel = new JPanel(new BorderLayout());
                     empPanel.setBackground(new Color(245, 245, 245));
                     empPanel.setBorder(BorderFactory.createCompoundBorder(
