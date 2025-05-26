@@ -262,15 +262,22 @@ public class EmpDashboardAdminView extends JFrame {
                     JLabel deptLabel = new JLabel(dept);
                     deptLabel.setFont(new Font("Arial", Font.PLAIN, 14));
 
-                    ImageIcon deleteIcon = new ImageIcon(getClass().getResource("/View/delete.png"));
-                    JButton deleteBtn = new JButton(deleteIcon);
-                    deleteBtn.setPreferredSize(new Dimension(24, 24));
+//                    ImageIcon deleteIcon = new ImageIcon(getClass().getResource("/View/delete.png"));
+//                    JButton deleteBtn = new JButton(deleteIcon);
+//                    deleteBtn.setPreferredSize(new Dimension(24, 24));
+//                    deleteBtn.setContentAreaFilled(false);
+//                    deleteBtn.setBorderPainted(false);
+//                    deleteBtn.setFocusPainted(false);
+//                    deleteBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
+//                    deleteBtn.setToolTipText("Delete");
+
+                    JButton deleteBtn = new JButton("\u274C");
+                    deleteBtn.setFont(new Font("Arial", Font.PLAIN, 12));
+                    deleteBtn.setForeground(Color.RED);
                     deleteBtn.setContentAreaFilled(false);
                     deleteBtn.setBorderPainted(false);
-                    deleteBtn.setFocusPainted(false);
                     deleteBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
                     deleteBtn.setToolTipText("Delete");
-
 
 
                     JPanel empPanel = new JPanel(new BorderLayout());
